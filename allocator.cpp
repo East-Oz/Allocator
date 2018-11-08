@@ -242,8 +242,6 @@ int main( int, char *[] )
         cout << to_string( c.first ) << " " << to_string( c.second ) << endl;
     }
 
-
-
     // custom container
     auto list1 = List<int>{};
     for( int i = 0; i < COUNT_LIMIT; i++ )
